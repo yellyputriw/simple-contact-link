@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    background-color: #eafffb;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    color: #333456;
+  }
+  
+  #btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #333456;
+    border: 2px solid #333456;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  #btn:hover {
+    background-color: mediumseagreen;
+    color: #fff;
+  }
+  

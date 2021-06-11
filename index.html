@@ -1,0 +1,69 @@
+<!-- UDAH WEI
+         GAUSA
+          DI INSPECT
+            EMANG BIKIN 
+              BUAT MOBILE AJA -->
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Yell-Chan Profile">
+                <title>Yell-Chan</title>
+                <link rel="stylesheet" href="./asset/css/link.css">
+                <link rel="shortcut icon" href="./favicon.svg">
+              </head>
+              <body>
+                <!-- Container -->
+                <div id="mobile-profile">
+                  <!-- Image -->
+                  <img class="profile" src="./asset/img/profile-pic.png" alt="Profile Pic">
+                  <!-- Heading -->
+                  <h1><span id="greetings"></span>, My name is Yelly Putri</h1>
+                  <!-- Paragraf -->
+                  <p>Connect with me on Github or reach me out on the other links!</p>
+                  <!-- Icon -->
+                  <img class="icon" src="asset/img/love.svg" alt="Icon Love">
+                  <!-- Link -->
+                  <ul>
+                    <li>
+                      <a href="https://github.com/yellyputriw">Github</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/yellyputri" target="_blank" rel="noreferrer">LinkedIn</a>
+                    </li>
+                    <li>
+                      <a href="/web">Website</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/yell.uix" target="_blank" rel="noreferrer">UI/UX Portofolio</a>
+                    </li>
+                    <li>
+                      <a href="mailto:yellyputriw@gmail.com">E-mail</a>
+                    </li>
+                  </ul>
+                  <!-- Copyright -->
+                  <p>Made With Love, yell-chan ^-^</p>
+                </div>
+              
+                <!-- Javascript -->
+                <script type="text/javascript">
+                  let myDate = new Date();
+                  let hours = myDate.getHours();
+              
+                  let greet;
+              
+                  if (hours < 12) {
+                    greet = 'Ohayou Gozaimasu';
+                  } else if (hours >= 12 && hours <= 17) {
+                    greet = 'Konnichiwa';
+                  } else if (hours >= 17 && hours <= 24) {
+                    greet = 'Konbanwa';
+                  }
+              
+                  document.getElementById('greetings').innerText = greet;
+                </script>
+              </body>
+              </html>
+              
